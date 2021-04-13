@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         sh '''cd Calculator
-mvn test sonar:sonar'''
+mvn clean install sonar:sonar'''
       }
     }
 
