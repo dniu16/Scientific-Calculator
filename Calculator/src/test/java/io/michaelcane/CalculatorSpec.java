@@ -52,6 +52,17 @@ public class CalculatorSpec {
     }
 
     @Test
+    public void test$cube() {
+        /**
+         * This method should take two values (double)
+         * and multiply the first with the second.
+         */
+        double expectedValue = 1000;
+        double actualValue = calculator.cube(10);
+        assertEquals("This should evaluate to 1000", expectedValue, actualValue, delta);
+    }
+
+    @Test
     public void test$multiply() {
         /**
          * This method should take two values (double)

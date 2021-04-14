@@ -25,6 +25,9 @@ public class Calculator {
         return value1 - value2;
     }
 
+    public double cube(double value1){
+        return value1*value1*value1;
+    }
     public double divide(double value1, double value2) {
         /**
          * This method should take two values (double)
